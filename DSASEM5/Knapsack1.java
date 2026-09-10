@@ -62,5 +62,6 @@ class Knapsack1{
 
         System.out.println(solve(n,cp,wt,pr,dp));
         System.out.println(solve1(cp,wt,pr,dp1));
+        sc.close();
     }
 }
