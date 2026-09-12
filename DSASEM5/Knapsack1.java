@@ -54,7 +54,7 @@ class Knapsack1{
             pr[i]=sc.nextInt();
         }
 
-        int dp[][]=new int[n+1][cp+1];
+        int dp[][]=new int[n+1][cp +1];
         for(int i=0; i<=n; i++){
             Arrays.fill(dp[i],-1);
         }
